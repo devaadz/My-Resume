@@ -36,7 +36,6 @@ a:focus {
     position: relative;
     margin: 0 auto;
     width: 100%;
-    /* max-width: 1140px; */
 }
 
 .wrapper .sidebar {
@@ -580,81 +579,6 @@ a:focus {
 }
 
 /**********************************/
-/********* Education CSS **********/
-/**********************************/
-.education {
-    position: relative;
-    padding: 60px 30px;
-    background: #222222;
-    border-bottom: 30px solid #1B1A17;
-}
-
-.education .edu-col {
-    position: relative;
-    width: 100%;
-    padding: 20px 0 20px 20px;
-    border-left: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-}
-
-.education .col-md-6:first-child .edu-col {
-    padding-top: 0;
-}
-
-.education .col-md-6:last-child .edu-col {
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
-@media (min-width: 768px) {
-    .education .col-md-6:nth-child(-n+2) .edu-col {
-        padding-top: 0;
-    }
-
-    .education .col-md-6:last-child .edu-col,
-    .education .col-md-6:nth-last-child(2) .edu-col {
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-}
-
-.education .edu-col span {    
-    color: #ffffff;
-    position: relative;
-    display: block;
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-.education .edu-col span::before {
-    position: absolute;
-    content: "";
-    width: 11px;
-    height: 11px;
-    background: #ffffff;
-    top: 5px;
-    left: -26px;
-    border-radius: 5px;
-}
-
-.education .edu-col span i {
-    color: #ffffff;
-}
-
-.education .edu-col h3 {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-.education .edu-col p {
-    margin: 0;
-}
- 
-
-/**********************************/
 /******* Detail Project CSS *******/
 /**********************************/
 
@@ -723,7 +647,6 @@ a:focus {
 }
 
 .portfolio .portfolio-item figure {
-    /* background: #ffffff; */
     overflow: hidden;
     max-width: fit-content;
     max-height: fit-content;
@@ -834,143 +757,6 @@ image-container img {
 .portfolio .portfolio-item figure:hover .portfolio-title {
     opacity: 1;
     top: 50%;
-}
-
-
-/**********************************/
-/*********** Review CSS ***********/
-/**********************************/
-.review {
-    position: relative;
-    background: #222222;
-    border-bottom: 30px solid #1B1A17;
-}
-
-.review .content-inner {
-    position: relative;
-    padding: 60px 30px;
-    background: url(../img/quote.png) right bottom no-repeat;
-}
-
-.review .review-text p {
-    font-size: 18px;
-    font-style: italic;
-}
-
-.review .review-img {
-    display: flex;
-    align-items: center;
-}
-
-.review .review-img img {
-    width: 80px; 
-    height: 80px; 
-    object-fit: cover;
-    margin-right: 15px;
-}
-
-.review .review-name h3 {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-
-.review .review-name p {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.review .review-text .ratting {
-    margin-bottom: 5px;
-}
-
-.review .review-text .ratting i {
-    color: #FF6F61;
-    font-size: 14px;
-}
-
-.review .slick-slider:hover .slick-prev {
-    left: 30px;
-}
-
-.review .slick-slider:hover .slick-next {
-    right: 30px;
-}
-
-.review-slider .slick-prev,
-.review-slider .slick-next {
-    width: 35px;
-    height: 35px;
-    z-index: 1;
-    opacity: 0;
-    transition: .5s;
-    background: rgba(255, 111, 97, .7);
-}
-
-.review-slider .slick-prev {
-    left: 55px;
-}
-
-.review-slider .slick-next {
-    right: 55px;
-}
-
-.review-slider.slick-slider:hover .slick-prev {
-    left: 15px;
-    opacity: 1;
-}
-
-.review-slider.slick-slider:hover .slick-next {
-    right: 15px;
-    opacity: 1;
-}
-
-.review-slider .slick-prev:hover,
-.review-slider .slick-prev:focus,
-.review-slider .slick-next:hover,
-.review-slider .slick-next:focus {
-    background: rgba(0, 0, 0, .7);
-}
-
-.review-slider .slick-prev:hover::before,
-.review-slider .slick-prev:focus::before,
-.review-slider .slick-next:hover::before,
-.review-slider .slick-next:focus::before {
-    color: #FF6F61;
-}
-
-.review-slider .slick-prev::before,
-.review-slider .slick-next::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.review-slider .slick-prev::before {
-    content: "\f104";
-}
-
-.review-slider .slick-next::before {
-    content: "\f105";
-}
-
-.review-slider .slick-dots {
-    bottom: 15px;
-}
-
-.review-slider .slick-dots li button:before {
-    color: #ffffff;
-    font-size: 15px;
-}
-
-.review-slider .slick-dots li.slick-active button:before {
-    color: #FF6F61;
-}
-
-.review-slider.slick-slider {
-    margin-bottom: 0;
 }
 
 
