@@ -11,10 +11,10 @@ function toggleMenu() {
 }
 
 document.getElementById("downloadButton").addEventListener("click", function() {
-    var pdfUrl = 'My_Resume.pdf';
+    var pdfUrl = 'Resume_Deva Adzany.pdf';
     var link = document.createElement('a');
     link.href = pdfUrl;
-    link.setAttribute('download', 'My_Resume.pdf');
+    link.setAttribute('download', 'Resume_Deva Adzany.pdf');
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
