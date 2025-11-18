@@ -1,0 +1,373 @@
+{
+    "texts": {
+        "en": {
+            "navbar": ["Home", "About", "Projects", "Contact"],
+            "hero": {
+                "greeting": "Hello! I'm Deva Adzny",
+                "subtitle": "Fullstack Developer",
+                "quote": "Crafting efficient and elegant digital solutions from start to finish.",
+                "my_works_button": "View My Work"
+            },
+            "about": {
+                "title": "About Me",
+                "description": "I am a passionate Fullstack Developer with 5 years of experience building web applications using modern technologies. My focus is on creating scalable systems and exceptional user experiences."
+            },
+            "skills": {
+                "languages": "Programming Languages",
+                "tools": "Frameworks & Tools"
+            },
+            "projects_title": "Latest Projects",
+            "contact": "Get In Touch",
+            "card_button": "View Details",
+            "no_project_found": "No projects found in this category.",
+            "form": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "message": "Your Message",
+                "send_button": "Send Message"
+            },
+            "detail": {
+                "overview": "Project Overview",
+                "back": "Back to Projects",
+                "tools": "Tools & Technology",
+                "problem": "Challenge/Problem",
+                "solution": "Solution & Results",
+                "related": "Other Projects",
+                "collab_title": "Interested in Collaboration?",
+                "not_found": "Project Not Found"
+            },
+            "footer": "Copyright © 2025 Deva Adzny."
+        },
+        "id": {
+            "navbar": ["Beranda", "Tentang", "Proyek", "Kontak"],
+            "hero": {
+                "greeting": "Halo! Saya Deva Adzny",
+                "subtitle": "Pengembang Fullstack",
+                "quote": "Menciptakan solusi digital yang efisien dan elegan dari awal hingga akhir.",
+                "my_works_button": "Lihat Hasil Karya Saya"
+            },
+            "about": {
+                "title": "Tentang Saya",
+                "description": "Saya adalah Pengembang Fullstack yang antusias dengan 5 tahun pengalaman membangun aplikasi web menggunakan teknologi modern. Fokus saya adalah menciptakan sistem yang skalabel dan pengalaman pengguna yang luar biasa."
+            },
+            "skills": {
+                "languages": "Bahasa Pemrograman",
+                "tools": "Framework & Tools"
+            },
+            "projects_title": "Proyek Terbaru",
+            "contact": "Hubungi Saya",
+            "card_button": "Lihat Detail",
+            "no_project_found": "Tidak ada proyek ditemukan dalam kategori ini.",
+            "form": {
+                "name": "Nama Anda",
+                "email": "Email Anda",
+                "message": "Pesan Anda",
+                "send_button": "Kirim Pesan"
+            },
+            "detail": {
+                "overview": "Ikhtisar Proyek",
+                "back": "Kembali ke Proyek",
+                "tools": "Alat & Teknologi",
+                "problem": "Tantangan/Masalah",
+                "solution": "Solusi & Hasil",
+                "related": "Proyek Lainnya",
+                "collab_title": "Tertarik untuk Berkolaborasi?",
+                "not_found": "Proyek Tidak Ditemukan"
+            },
+            "footer": "Hak Cipta © 2025 Deva Adzny."
+        }
+    },
+    "skills": {
+        "languages": ["PHP", "JavaScript", "Python", "SQL", "HTML5/CSS3"],
+        "tools": ["Laravel", "React", "Vue.js", "Bootstrap", "Tailwind CSS", "Git/GitHub", "Docker"]
+    },
+    "projects": [
+        {
+            "id": 1,
+            "category": "Web App",
+            "title": {
+                "en": "E-Commerce Management System",
+                "id": "Sistem Manajemen E-Commerce"
+            },
+            "short_description": {
+                "en": "A robust full-stack platform for managing products, orders, and customer data.",
+                "id": "Platform full-stack yang tangguh untuk mengelola produk, pesanan, dan data pelanggan."
+            },
+            "problem": {
+                "en": "Existing system was slow and lacked real-time inventory updates, leading to overselling.",
+                "id": "Sistem yang ada lambat dan tidak memiliki pembaruan inventaris real-time, menyebabkan overselling."
+            },
+            "solution": {
+                "en": "Implemented Laravel Livewire for real-time data sync and optimized database queries.",
+                "id": "Mengimplementasikan Laravel Livewire untuk sinkronisasi data real-time dan mengoptimalkan kueri basis data."
+            },
+            "tools": ["Laravel", "Livewire", "MySQL", "Tailwind CSS", "Vue.js"],
+            "images": ["img/projects/p1-main.jpg", "img/projects/p1-detail1.jpg", "img/projects/p1-detail2.jpg"]
+        },
+        {
+            "id": 2,
+            "category": "Mobile App",
+            "title": {
+                "en": "Fitness Tracker API",
+                "id": "API Pelacak Kebugaran"
+            },
+            "short_description": {
+                "en": "A RESTful API built with Python/Django for logging workouts and tracking progress.",
+                "id": "API RESTful yang dibangun dengan Python/Django untuk mencatat latihan dan melacak kemajuan."
+            },
+            "problem": {
+                "en": "Needed a highly scalable and decoupled backend for iOS and Android mobile clients.",
+                "id": "Membutuhkan backend yang sangat skalabel dan terpisah untuk klien seluler iOS dan Android."
+            },
+            "solution": {
+                "en": "Developed Django REST Framework endpoints with JWT authentication and optimized for high throughput.",
+                "id": "Mengembangkan endpoint Django REST Framework dengan otentikasi JWT dan dioptimalkan untuk throughput tinggi."
+            },
+            "tools": ["Python", "Django REST Framework", "PostgreSQL", "Docker"],
+            "images": ["img/projects/p2-main.jpg", "img/projects/p2-detail1.jpg"]
+        },
+        {
+            "id": 3,
+            "category": "Landing Page",
+            "title": {
+                "en": "Creative Agency Landing Page",
+                "id": "Landing Page Agensi Kreatif"
+            },
+            "short_description": {
+                "en": "Modern, responsive landing page using pure HTML/CSS and minimal JavaScript.",
+                "id": "Landing page modern, responsif menggunakan HTML/CSS murni dan JavaScript minimal."
+            },
+            "problem": {
+                "en": "The client needed a fast-loading, visually appealing page to capture leads instantly.",
+                "id": "Klien membutuhkan halaman yang cepat dimuat dan menarik secara visual untuk menangkap prospek secara instan."
+            },
+            "solution": {
+                "en": "Used a lightweight framework (Bootstrap) and optimized all assets for maximum page speed.",
+                "id": "Menggunakan framework ringan (Bootstrap) dan mengoptimalkan semua aset untuk kecepatan halaman maksimum."
+            },
+            "tools": ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+            "images": ["img/projects/p3-main.jpg", "img/projects/p3-detail1.jpg"]
+        },
+        {
+            "id": 4,
+            "category": "Mobile App",
+            "title": {
+                "en": "Fitness Tracker Mobile App",
+                "id": "Aplikasi Pelacak Kebugaran"
+            },
+            "short_description": {
+                "en": "A mobile app to monitor workouts, calories, and progress using Flutter.",
+                "id": "Aplikasi seluler untuk memantau latihan, kalori, dan progres menggunakan Flutter."
+            },
+            "problem": {
+                "en": "Users needed an intuitive interface to track fitness goals and daily activities.",
+                "id": "Pengguna membutuhkan antarmuka intuitif untuk melacak tujuan kebugaran dan aktivitas harian."
+            },
+            "solution": {
+                "en": "Built with Flutter using Firebase authentication and chart visualization for performance tracking.",
+                "id": "Dibangun dengan Flutter menggunakan autentikasi Firebase dan visualisasi grafik untuk pelacakan performa."
+            },
+            "tools": ["Flutter", "Dart", "Firebase", "Chart.js"],
+            "images": ["img/projects/p4-main.jpg", "img/projects/p4-detail1.jpg"]
+        },
+        {
+            "id": 5,
+            "category": "Web Application",
+            "title": {
+                "en": "Online Booking System",
+                "id": "Sistem Pemesanan Online"
+            },
+            "short_description": {
+                "en": "A full booking and reservation management platform with integrated payment system.",
+                "id": "Platform pemesanan dan manajemen reservasi dengan sistem pembayaran terintegrasi."
+            },
+            "problem": {
+                "en": "Businesses struggled to manage customer bookings manually.",
+                "id": "Bisnis kesulitan mengelola pemesanan pelanggan secara manual."
+            },
+            "solution": {
+                "en": "Developed an automated web app with booking calendar and payment gateway integration.",
+                "id": "Mengembangkan aplikasi web otomatis dengan kalender pemesanan dan integrasi payment gateway."
+            },
+            "tools": ["Laravel", "MySQL", "Bootstrap", "Midtrans API"],
+            "images": ["img/projects/p5-main.jpg", "img/projects/p5-detail1.jpg"]
+        },
+        {
+            "id": 6,
+            "category": "Machine Learning",
+            "title": {
+                "en": "Image Classification Model",
+                "id": "Model Klasifikasi Gambar"
+            },
+            "short_description": {
+                "en": "A CNN-based model that classifies images of fruits and vegetables with 97% accuracy.",
+                "id": "Model berbasis CNN yang mengklasifikasikan gambar buah dan sayur dengan akurasi 97%."
+            },
+            "problem": {
+                "en": "Needed an automated way to identify fruits for inventory sorting.",
+                "id": "Membutuhkan cara otomatis untuk mengidentifikasi buah dalam proses sortir inventaris."
+            },
+            "solution": {
+                "en": "Trained a CNN model using TensorFlow with a dataset of over 10,000 labeled images.",
+                "id": "Melatih model CNN menggunakan TensorFlow dengan dataset lebih dari 10.000 gambar berlabel."
+            },
+            "tools": ["Python", "TensorFlow", "NumPy", "OpenCV"],
+            "images": ["img/projects/p6-main.jpg", "img/projects/p6-detail1.jpg"]
+        },
+        {
+            "id": 7,
+            "category": "E-Commerce",
+            "title": {
+                "en": "Fashion Store Website",
+                "id": "Situs Toko Fashion"
+            },
+            "short_description": {
+                "en": "A modern online fashion store with shopping cart and product filters.",
+                "id": "Toko online fashion modern dengan keranjang belanja dan filter produk."
+            },
+            "problem": {
+                "en": "Client wanted a stylish store that could handle multiple product categories easily.",
+                "id": "Klien menginginkan toko bergaya yang dapat menangani berbagai kategori produk dengan mudah."
+            },
+            "solution": {
+                "en": "Developed responsive e-commerce using Laravel and AJAX-based search/filter.",
+                "id": "Mengembangkan e-commerce responsif menggunakan Laravel dan pencarian/filter berbasis AJAX."
+            },
+            "tools": ["Laravel", "MySQL", "AJAX", "Bootstrap"],
+            "images": ["img/projects/p7-main.jpg", "img/projects/p7-detail1.jpg"]
+        },
+        {
+            "id": 8,
+            "category": "AI Integration",
+            "title": {
+                "en": "Voice Command Home Automation",
+                "id": "Otomasi Rumah dengan Perintah Suara"
+            },
+            "short_description": {
+                "en": "Smart home control system powered by voice recognition API.",
+                "id": "Sistem kontrol rumah pintar dengan dukungan API pengenalan suara."
+            },
+            "problem": {
+                "en": "Users wanted to control home devices hands-free with voice commands.",
+                "id": "Pengguna ingin mengontrol perangkat rumah tanpa tangan dengan perintah suara."
+            },
+            "solution": {
+                "en": "Built a voice recognition system connected to IoT devices using Node.js.",
+                "id": "Membangun sistem pengenalan suara yang terhubung ke perangkat IoT menggunakan Node.js."
+            },
+            "tools": ["Node.js", "Express", "Raspberry Pi", "Speech API"],
+            "images": ["img/projects/p8-main.jpg", "img/projects/p8-detail1.jpg"]
+        },
+        {
+            "id": 9,
+            "category": "Dashboard",
+            "title": {
+                "en": "Sales Analytics Dashboard",
+                "id": "Dashboard Analitik Penjualan"
+            },
+            "short_description": {
+                "en": "An interactive dashboard for monitoring sales trends and performance metrics.",
+                "id": "Dashboard interaktif untuk memantau tren penjualan dan metrik kinerja."
+            },
+            "problem": {
+                "en": "Management lacked visual insights into sales performance.",
+                "id": "Manajemen kekurangan wawasan visual terhadap kinerja penjualan."
+            },
+            "solution": {
+                "en": "Created real-time dashboard using React and Chart.js for data visualization.",
+                "id": "Membuat dashboard real-time menggunakan React dan Chart.js untuk visualisasi data."
+            },
+            "tools": ["React", "Chart.js", "REST API", "Bootstrap"],
+            "images": ["img/projects/p9-main.jpg", "img/projects/p9-detail1.jpg"]
+        },
+        {
+            "id": 10,
+            "category": "Landing Page",
+            "title": {
+                "en": "SaaS Product Landing Page",
+                "id": "Landing Page Produk SaaS"
+            },
+            "short_description": {
+                "en": "A high-conversion landing page for a SaaS startup with animation and analytics integration.",
+                "id": "Landing page berkonversi tinggi untuk startup SaaS dengan animasi dan integrasi analitik."
+            },
+            "problem": {
+                "en": "Startup needed a landing page to attract investors and early adopters.",
+                "id": "Startup membutuhkan landing page untuk menarik investor dan pengguna awal."
+            },
+            "solution": {
+                "en": "Designed animated landing page with A/B testing integration via Google Optimize.",
+                "id": "Mendesain landing page animatif dengan integrasi A/B testing menggunakan Google Optimize."
+            },
+            "tools": ["HTML", "CSS", "GSAP", "Google Analytics"],
+            "images": ["img/projects/p10-main.jpg", "img/projects/p10-detail1.jpg"]
+        },
+        {
+            "id": 11,
+            "category": "Web App",
+            "title": {
+                "en": "Employee Attendance System",
+                "id": "Sistem Absensi Karyawan"
+            },
+            "short_description": {
+                "en": "Web app for tracking employee attendance with face recognition integration.",
+                "id": "Aplikasi web untuk melacak absensi karyawan dengan integrasi pengenalan wajah."
+            },
+            "problem": {
+                "en": "Manual attendance caused inefficiencies and potential fraud.",
+                "id": "Absensi manual menyebabkan ketidakefisienan dan potensi kecurangan."
+            },
+            "solution": {
+                "en": "Implemented face recognition and geolocation checks via webcam API.",
+                "id": "Mengimplementasikan pengenalan wajah dan pemeriksaan lokasi via API kamera web."
+            },
+            "tools": ["Laravel", "Python", "OpenCV", "MySQL"],
+            "images": ["img/projects/p11-main.jpg", "img/projects/p11-detail1.jpg"]
+        },
+        {
+            "id": 12,
+            "category": "Data Visualization",
+            "title": {
+                "en": "COVID-19 Stats Visualizer",
+                "id": "Visualisasi Statistik COVID-19"
+            },
+            "short_description": {
+                "en": "Dashboard displaying live COVID-19 stats pulled from open data API.",
+                "id": "Dashboard yang menampilkan statistik COVID-19 langsung dari API data terbuka."
+            },
+            "problem": {
+                "en": "Needed an easy-to-read dashboard for tracking real-time global COVID-19 cases.",
+                "id": "Membutuhkan dashboard mudah dibaca untuk memantau kasus COVID-19 global secara real-time."
+            },
+            "solution": {
+                "en": "Built React app fetching live API data with interactive world map.",
+                "id": "Membangun aplikasi React yang mengambil data API langsung dengan peta dunia interaktif."
+            },
+            "tools": ["React", "Leaflet.js", "REST API", "Chart.js"],
+            "images": ["img/projects/p12-main.jpg", "img/projects/p12-detail1.jpg"]
+        },
+        {
+            "id": 13,
+            "category": "AI Tool",
+            "title": {
+                "en": "Resume Screening System",
+                "id": "Sistem Penyaringan CV"
+            },
+            "short_description": {
+                "en": "AI-powered resume parser that ranks candidates by skill match.",
+                "id": "Parser CV berbasis AI yang memberi peringkat kandidat berdasarkan kecocokan keterampilan."
+            },
+            "problem": {
+                "en": "HR teams spent too much time manually reviewing resumes.",
+                "id": "Tim HR menghabiskan terlalu banyak waktu meninjau CV secara manual."
+            },
+            "solution": {
+                "en": "Built NLP model that extracts and ranks skills using keyword analysis.",
+                "id": "Membangun model NLP yang mengekstrak dan memberi peringkat keterampilan menggunakan analisis kata kunci."
+            },
+            "tools": ["Python", "spaCy", "Flask", "Pandas"],
+            "images": ["img/projects/p13-main.jpg", "img/projects/p13-detail1.jpg"]
+        }
+
+    ]
+}

@@ -1,0 +1,268 @@
+{
+  "texts": {
+    "en": {
+      "navbar": ["Home", "About", "Projects", "Contact"],
+      "hero": {
+        "greeting": "Hello 👋 I'm",
+        "subtitle": "Web Developer & AI Enthusiast",
+        "quote": "No matter which field of work you want to go in, it is of great importance to learn at least one programming language. — Ram Ray",
+        "my_works_button": "My Works"
+      },
+      "about": {
+        "title": "About Me",
+        "description": "I'm a web developer focused on clean, functional, and minimal designs. Currently available for freelance projects in web development and AI-based systems."
+      },
+      "skills": {
+        "languages": "Languages & Frameworks",
+        "tools": "Tools & Technologies"
+      },
+      "projects_title": "My Projects",
+      "contact": "Contact Me",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "send_button": "Send Message"
+      },
+      "footer": "© 2025 Deva Adzny — All rights reserved.",
+      "detail": {
+        "back": "Back to Projects",
+        "overview": "Project Overview",
+        "tools": "Tools Used",
+        "problem": "Problem",
+        "solution": "Solution",
+        "related": "Other Projects",
+        "collab_title": "Interested in Collaboration?"
+      },
+      "card_button": "View Details"
+    },
+    "id": {
+      "navbar": ["Beranda", "Tentang", "Proyek", "Kontak"],
+      "hero": {
+        "greeting": "Halo 👋 Saya",
+        "subtitle": "Pengembang Web & Penggemar AI",
+        "quote": "Tidak peduli bidang pekerjaan apa yang ingin Anda geluti, sangat penting untuk mempelajari setidaknya satu bahasa pemrograman. — Ram Ray",
+        "my_works_button": "Lihat Proyek"
+      },
+      "about": {
+        "title": "Tentang Saya",
+        "description": "Saya seorang pengembang web yang berfokus pada desain sederhana dan fungsional. Saat ini menerima proyek freelance di bidang pengembangan web dan sistem berbasis AI."
+      },
+      "skills": {
+        "languages": "Bahasa & Framework",
+        "tools": "Alat & Teknologi"
+      },
+      "projects_title": "Proyek Saya",
+      "contact": "Hubungi Saya",
+      "form": {
+        "name": "Nama Anda",
+        "email": "Email Anda",
+        "message": "Pesan Anda",
+        "send_button": "Kirim Pesan"
+      },
+      "footer": "© 2025 Deva Adzny — Semua hak dilindungi.",
+      "detail": {
+        "back": "Kembali ke Proyek",
+        "overview": "Ikhtisar Proyek",
+        "tools": "Alat yang Digunakan",
+        "problem": "Masalah",
+        "solution": "Solusi",
+        "related": "Proyek Lain",
+        "collab_title": "Tertarik untuk Kolaborasi?"
+      },
+      "card_button": "Lihat Detail"
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": { "en": "Company Profile Website", "id": "Situs Profil Perusahaan" },
+      "category": "Web Development",
+      "short_description": {
+        "en": "A simple and clean company profile website built with Bootstrap.",
+        "id": "Situs profil perusahaan sederhana yang dibuat dengan Bootstrap."
+      },
+      "images": ["img/project1a.jpg", "img/project1b.jpg", "img/project1c.jpg"],
+      "tools": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+      "problem": {
+        "en": "The client needed a modern company profile that loads fast and looks professional on all devices.",
+        "id": "Klien membutuhkan situs profil perusahaan modern yang cepat dimuat dan tampak profesional di semua perangkat."
+      },
+      "solution": {
+        "en": "Built a responsive static site using Bootstrap 5 with JSON-based data structure.",
+        "id": "Membangun situs statis responsif menggunakan Bootstrap 5 dengan struktur data berbasis JSON."
+      }
+    },
+    {
+      "id": 2,
+      "title": { "en": "AI Chat Assistant", "id": "Asisten Chat AI" },
+      "category": "Machine Learning",
+      "short_description": {
+        "en": "An AI chatbot using simple JavaScript API integration for customer support.",
+        "id": "Chatbot AI dengan integrasi API sederhana untuk dukungan pelanggan."
+      },
+      "images": ["img/project2a.jpg", "img/project2b.jpg"],
+      "tools": ["JavaScript", "API", "TensorFlow"],
+      "problem": {
+        "en": "Business needed a chatbot available 24/7 for customer inquiries.",
+        "id": "Bisnis membutuhkan chatbot yang tersedia 24/7 untuk pertanyaan pelanggan."
+      },
+      "solution": {
+        "en": "Created an AI chatbot with NLP capabilities using TensorFlow.js and web APIs.",
+        "id": "Membuat chatbot AI dengan kemampuan NLP menggunakan TensorFlow.js dan API web."
+      }
+    },
+    {
+      "id": 3,
+      "title": { "en": "E-Commerce Dashboard", "id": "Dashboard E-Commerce" },
+      "category": "Web Development",
+      "short_description": {
+        "en": "Admin dashboard for managing store operations and analytics.",
+        "id": "Dashboard admin untuk mengelola operasi toko dan analitik."
+      },
+      "images": ["img/project3a.jpg", "img/project3b.jpg"],
+      "tools": ["Laravel", "MySQL", "Chart.js"],
+      "problem": {
+        "en": "Store owners needed centralized real-time analytics.",
+        "id": "Pemilik toko membutuhkan analitik real-time yang terpusat."
+      },
+      "solution": {
+        "en": "Developed an interactive Laravel dashboard with live charts.",
+        "id": "Mengembangkan dashboard Laravel interaktif dengan grafik real-time."
+      }
+    },
+    {
+      "id": 4,
+      "title": { "en": "Portfolio CMS", "id": "CMS Portofolio" },
+      "category": "Fullstack",
+      "short_description": {
+        "en": "A personal portfolio with built-in content management system.",
+        "id": "Portofolio pribadi dengan sistem manajemen konten bawaan."
+      },
+      "images": ["img/project4a.jpg"],
+      "tools": ["Next.js", "MongoDB", "Tailwind CSS"],
+      "problem": {
+        "en": "User needed dynamic content updates without code editing.",
+        "id": "Pengguna membutuhkan pembaruan konten dinamis tanpa edit kode."
+      },
+      "solution": {
+        "en": "Built CMS-based Next.js app connected to MongoDB.",
+        "id": "Membangun aplikasi Next.js berbasis CMS terhubung ke MongoDB."
+      }
+    },
+    {
+      "id": 5,
+      "title": { "en": "Task Management App", "id": "Aplikasi Manajemen Tugas" },
+      "category": "Productivity",
+      "short_description": {
+        "en": "A Kanban-style task manager with real-time collaboration.",
+        "id": "Manajer tugas gaya Kanban dengan kolaborasi waktu nyata."
+      },
+      "images": ["img/project5a.jpg", "img/project5b.jpg"],
+      "tools": ["React", "Firebase", "Tailwind"],
+      "problem": {
+        "en": "Teams needed a visual workflow system for remote work.",
+        "id": "Tim membutuhkan sistem alur kerja visual untuk kerja jarak jauh."
+      },
+      "solution": {
+        "en": "Developed real-time Kanban board using React and Firebase.",
+        "id": "Mengembangkan papan Kanban real-time menggunakan React dan Firebase."
+      }
+    },
+    {
+      "id": 6,
+      "title": { "en": "Weather Forecast App", "id": "Aplikasi Ramalan Cuaca" },
+      "category": "API Integration",
+      "short_description": {
+        "en": "Weather app that fetches data from OpenWeather API.",
+        "id": "Aplikasi cuaca yang mengambil data dari OpenWeather API."
+      },
+      "images": ["img/project6a.jpg"],
+      "tools": ["Vue.js", "Axios", "API"],
+      "problem": {
+        "en": "Needed a simple, accurate daily forecast UI.",
+        "id": "Membutuhkan UI ramalan harian yang sederhana dan akurat."
+      },
+      "solution": {
+        "en": "Built a Vue.js SPA integrated with OpenWeather API.",
+        "id": "Membangun SPA Vue.js yang terintegrasi dengan OpenWeather API."
+      }
+    },
+    {
+      "id": 7,
+      "title": { "en": "Finance Tracker", "id": "Pelacak Keuangan" },
+      "category": "Finance",
+      "short_description": {
+        "en": "An app to track daily expenses and visualize spending patterns.",
+        "id": "Aplikasi untuk melacak pengeluaran harian dan memvisualisasikan pola belanja."
+      },
+      "images": ["img/project7a.jpg"],
+      "tools": ["React", "Redux", "Chart.js"],
+      "problem": {
+        "en": "Users had trouble monitoring personal budgets.",
+        "id": "Pengguna kesulitan memantau anggaran pribadi."
+      },
+      "solution": {
+        "en": "Developed an expense tracker with visual analytics.",
+        "id": "Mengembangkan pelacak pengeluaran dengan analitik visual."
+      }
+    },
+    {
+      "id": 8,
+      "title": { "en": "Blog Platform", "id": "Platform Blog" },
+      "category": "Fullstack",
+      "short_description": {
+        "en": "A Markdown-powered blogging platform.",
+        "id": "Platform blogging yang didukung oleh Markdown."
+      },
+      "images": ["img/project8a.jpg", "img/project8b.jpg"],
+      "tools": ["Next.js", "Prisma", "SQLite"],
+      "problem": {
+        "en": "Writers wanted minimal, distraction-free editor.",
+        "id": "Penulis menginginkan editor minimal tanpa gangguan."
+      },
+      "solution": {
+        "en": "Created a Next.js blog app with live Markdown preview.",
+        "id": "Membuat aplikasi blog Next.js dengan pratinjau Markdown langsung."
+      }
+    },
+    {
+      "id": 9,
+      "title": { "en": "Inventory System", "id": "Sistem Inventaris" },
+      "category": "Enterprise",
+      "short_description": {
+        "en": "Inventory management system for small businesses.",
+        "id": "Sistem manajemen inventaris untuk bisnis kecil."
+      },
+      "images": ["img/project9a.jpg"],
+      "tools": ["Laravel", "MySQL", "Bootstrap"],
+      "problem": {
+        "en": "Manual inventory tracking caused data inconsistencies.",
+        "id": "Pelacakan inventaris manual menyebabkan ketidaksesuaian data."
+      },
+      "solution": {
+        "en": "Automated CRUD system for products, vendors, and stock levels.",
+        "id": "Sistem CRUD otomatis untuk produk, vendor, dan stok."
+      }
+    },
+    {
+      "id": 10,
+      "title": { "en": "Online Course Platform", "id": "Platform Kursus Online" },
+      "category": "Education",
+      "short_description": {
+        "en": "Platform for hosting online learning materials and quizzes.",
+        "id": "Platform untuk mengelola materi pembelajaran dan kuis online."
+      },
+      "images": ["img/project10a.jpg"],
+      "tools": ["Laravel", "Vue", "MySQL"],
+      "problem": {
+        "en": "Needed scalable course management for multiple instructors.",
+        "id": "Membutuhkan manajemen kursus yang dapat diskalakan untuk banyak instruktur."
+      },
+      "solution": {
+        "en": "Developed modular platform with instructor dashboards.",
+        "id": "Mengembangkan platform modular dengan dashboard instruktur."
+      }
+    }
+  ]
+}

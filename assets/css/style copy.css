@@ -1,0 +1,569 @@
+/* assets/css/style.css */
+
+/* ========================================
+   GLOBAL VARIABLES & THEMES
+======================================== */
+:root {
+    /* Light Mode */
+    --primary: #0d6efd; 
+    --secondary: #6c757d;
+    --background: #f4f7f9;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --text-muted: #6c757d;
+    --border-color: #dee2e6;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --navbar-bg: rgba(255, 255, 255, 0.8);
+
+    /* Hero Banner Specific Colors */
+    --hero-banner-bg: #1f2334; /* Latar belakang gelap untuk banner */
+    --hero-banner-text: #ffffff; 
+    --hero-banner-accent: #ff4081; /* Aksen pink untuk blob/tombol */
+}
+
+[data-theme='dark'] {
+    /* Dark Mode */
+    --primary: #58a6ff; 
+    --secondary: #adb5bd;
+    --background: #18191a; 
+    --card-bg: #242526; 
+    --text-color: #f0f6fc;
+    --text-muted: #adb5bd;
+    --border-color: #333639;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --navbar-bg: rgba(36, 37, 38, 0.9);
+
+    /* Hero Banner Specific Colors */
+    --hero-banner-bg: #111214; 
+    --hero-banner-text: #f0f6fc;
+    --hero-banner-accent: #ff4081; 
+}
+
+/* ========================================
+   BASE STYLES
+======================================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* ========================================
+   NAVBAR
+======================================== */
+.navbar {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 0 var(--shadow-color);
+}
+
+.navbar.scrolled-normal {
+    backdrop-filter: blur(10px);
+    background: var(--navbar-bg) !important;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.navbar.navbar-hero-top {
+    background: transparent !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+    width: 80%;
+}
+
+/* ========================================
+   HERO BANNER
+======================================== */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 56px;
+    background-color: var(--hero-banner-bg);
+    color: var(--hero-banner-text);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--hero-banner-text);
+}
+
+.hero-text h2 {
+    font-size: 1.5rem;
+    color: var(--primary); 
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: var(--text-muted); 
+}
+
+.hero-image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-image {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 10;
+    position: relative;
+    border-radius: 8px;
+}
+
+.hero-blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: var(--hero-banner-accent);
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.6;
+    z-index: 5;
+    transform: translate(10%, -10%);
+}
+
+.btn-hero {
+    background-color: var(--hero-banner-accent);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-hero:hover {
+    background-color: #e03270;
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* ========================================
+   UTILITIES & SEPARATORS
+======================================== */
+.section-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+    color: var(--text-color);
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--primary);
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 50px auto;
+    width: 70%;
+    opacity: 0.8;
+}
+
+/* ========================================
+   PROJECTS FILTER STYLES
+======================================== */
+.filter-btn {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background: var(--background);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.filter-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+}
+
+.filter-btn.active:hover {
+    background: var(--primary);
+}
+
+/* ========================================
+   CONTENT SECTIONS & CARDS
+======================================== */
+.content-sections-wrapper {
+    background-color: var(--background);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-card, .project-card, .project-info-card {
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px var(--shadow-color);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px var(--shadow-color);
+}
+
+.badge {
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    border-radius: 50px;
+    color: var(--text-color) !important;
+    background: var(--background) !important;
+    border: 1px solid var(--border-color);
+}
+
+.project-card {
+    padding: 0; 
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px var(--shadow-color);
+}
+
+.project-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.project-card-body {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Project Detail Page Styles */
+.project-detail-img {
+    height: 500px; 
+    object-fit: cover;
+}
+
+.project-info-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px var(--shadow-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Related Projects Card Style (Smaller & Circle Effect) */
+.related-project-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px var(--shadow-color);
+    transition: all 0.3s ease;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.related-project-card:hover {
+    transform: translateY(-5px);
+}
+
+.related-project-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Efek melingkar */
+    margin: 0 auto 15px;
+    border: 3px solid var(--primary);
+}
+
+/* Multi-Item Carousel Fix for Related Projects */
+#relatedProjectsCarousel .carousel-inner {
+    overflow: visible; 
+}
+
+#relatedProjectsCarousel .carousel-item {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+/* Tampilkan 3 kartu per slide */
+#relatedProjectsCarousel .carousel-item .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+/* Forms & Buttons */
+.form-control {
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    padding: 12px 20px;
+    background: var(--background);
+    color: var(--text-color);
+}
+
+.btn-primary {
+    border-radius: 50px !important;
+    padding: 12px 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Footer */
+.bg-dark {
+    background-color: #111 !important; 
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: var(--primary);
+    transform: translateY(-3px);
+}
+
+/* Update Page */
+.update-page-container {
+    padding-top: 100px;
+}
+
+/* ========================================
+   RESPONSIVENESS (Mobile First)
+======================================== */
+@media (max-width: 991.98px) {
+    /* Hero adjustments for mobile */
+    .hero-section {
+        min-height: auto;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+    .hero-text p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-image-wrapper {
+        margin-top: 40px;
+        height: 350px;
+    }
+    .hero-image {
+        width: 250px;
+        height: 350px;
+    }
+    .hero-blob {
+        width: 350px;
+        height: 350px;
+        transform: translate(0, 0);
+    }
+
+    /* General mobile adjustments for content sections */
+    .section-title {
+        text-align: center !important;
+    }
+    .section-title::after {
+        margin: 15px auto 0;
+    }
+
+    /* Related Projects Mobile: 1 card per slide */
+    #relatedProjectsCarousel .carousel-item .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* assets/css/style.css */
+
+/* ... (Gaya GLOBAL, HERO BANNER, NAVAR, UTILITIES tetap sama) ... */
+
+/* ========================================
+   PROJECT CARDS (My Projects)
+======================================== */
+.project-card {
+    padding: 0; 
+    overflow: hidden;
+    border-radius: 15px; /* Sudut lebih lembut */
+    box-shadow: 0 8px 25px var(--shadow-color); /* Bayangan lebih dalam */
+    border: none; /* Hapus border default untuk tampilan yang lebih bersih */
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px var(--shadow-color); /* Bayangan lebih dramatis saat hover */
+}
+
+.project-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    /* Memberikan sedikit efek zoom pada gambar saat hover */
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-card-body {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-body h5 {
+    font-weight: 600; /* Judul lebih tebal */
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.project-card-body .project-category {
+    font-size: 0.85rem;
+    color: var(--primary); /* Sorot kategori */
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* assets/css/style.css */
+
+/* ... (Gaya project-info-card tetap sama) ... */
+
+/* ========================================
+   RELATED PROJECTS (Other Projects)
+======================================== */
+.related-project-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: none; /* Hapus bayangan agar lebih ringan */
+    border: 1px solid var(--border-color); /* Border ringan */
+    transition: all 0.3s ease;
+    height: 100%;
+    text-align: center;
+    padding: 20px 10px; /* Padding lebih sedikit */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.related-project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary); /* Sorot border saat hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Tambah bayangan saat hover */
+}
+
+.related-project-img {
+    width: 80px; /* Ukuran lebih kecil */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin: 0 auto 10px;
+    border: 3px solid var(--border-color); /* Ubah ke warna border */
+    transition: border-color 0.3s;
+}
+
+.related-project-card:hover .related-project-img {
+    border-color: var(--hero-banner-accent); /* Aksen warna saat hover */
+}
+
+.related-project-card h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color); /* Pastikan teks terbaca */
+}
+
+.related-project-card p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Penyesuaian Navigasi Carousel Proyek Lain */
+#relatedProjectsCarousel .carousel-control-prev,
+#relatedProjectsCarousel .carousel-control-next {
+    width: 5%;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+#relatedProjectsCarousel .carousel-control-prev:hover,
+#relatedProjectsCarousel .carousel-control-next:hover {
+    opacity: 1;
+}
+
+/* Pastikan ikon navigasi terlihat jelas di dark mode */
+#relatedProjectsCarousel .carousel-control-prev-icon,
+#relatedProjectsCarousel .carousel-control-next-icon {
+    filter: invert(var(--theme-invert, 0)) grayscale(100%);
+    /* theme-invert akan 1 di dark mode, 0 di light mode */
+}
+:root {
+    --theme-invert: 0;
+}
+[data-theme='dark'] {
+    --theme-invert: 1;
+}
+}

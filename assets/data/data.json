@@ -1,0 +1,523 @@
+{
+    "texts": {
+        "en": {
+            "navbar": ["Home", "About", "Projects", "Contact"],
+            "hero": {
+                "greeting": "Hi, I'm Deva Adzny",
+                "subtitle": "Fullstack Developer",
+                "quote": "I build reliable and user-focused digital products.",
+                "my_works_button": "Explore My Work"
+            },
+            "about": {
+                "title": "About Me",
+                "description": "I am a Fullstack Developer with over 5 years of experience building CRM systems, Machine Learning-powered apps, and internal tools. I specialize in scalable backend architecture, clean code, and seamless user experiences."
+            },
+            "skills": {
+                "languages": "Programming Languages",
+                "tools": "Frameworks & Tools"
+            },
+            "projects_title": "Featured Projects",
+            "contact": "Contact Me",
+            "card_button": "View Project",
+            "no_project_found": "No projects available in this category.",
+            "form": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "message": "Your Message",
+                "send_button": "Send Message"
+            },
+            "detail": {
+                "overview": "Project Overview",
+                "back": "Back to Projects",
+                "tools": "Tools & Technologies",
+                "problem": "Challenges",
+                "solution": "Solution & Impact",
+                "related": "Related Projects",
+                "collab_title": "Interested in Collaborating?",
+                "not_found": "Project Not Found"
+            },
+            "footer": "© 2025 Deva Adzny. All rights reserved."
+        },
+        "id": {
+            "navbar": ["Beranda", "Tentang", "Proyek", "Kontak"],
+            "hero": {
+                "greeting": "Halo, Saya Deva Adzny",
+                "subtitle": "Fullstack Developer",
+                "quote": "Saya membangun produk digital dan berfokus pada pengalaman pengguna.",
+                "my_works_button": "Lihat Portofolio"
+            },
+            "about": {
+                "title": "Tentang Saya",
+                "description": "Saya adalah Pengembang Fullstack dengan lebih dari 5 tahun pengalaman membangun CRM, aplikasi Machine Learning, dan aplikasi internal. Saya berfokus pada arsitektur backend yang skalabel, clean code, dan pengalaman pengguna yang optimal."
+            },
+            "skills": {
+                "languages": "Bahasa Pemrograman",
+                "tools": "Framework & Tools"
+            },
+            "projects_title": "Proyek Unggulan",
+            "contact": "Hubungi Saya",
+            "card_button": "Lihat Proyek",
+            "no_project_found": "Tidak ada proyek pada kategori ini.",
+            "form": {
+                "name": "Nama Anda",
+                "email": "Email Anda",
+                "message": "Pesan Anda",
+                "send_button": "Kirim Pesan"
+            },
+            "detail": {
+                "overview": "Ringkasan Proyek",
+                "back": "Kembali ke Proyek",
+                "tools": "Tools & Teknologi",
+                "problem": "Tantangan",
+                "solution": "Solusi & Dampak",
+                "related": "Proyek Terkait",
+                "collab_title": "Ingin Berkolaborasi?",
+                "not_found": "Proyek Tidak Ditemukan"
+            },
+            "footer": "© 2025 Deva Adzny. Hak cipta dilindungi."
+        }
+    },
+
+    "skills": {
+        "languages": [
+            "PHP",
+            "JavaScript",
+            "Python",
+            "SQL",
+            "HTML5/CSS3",
+            "Java"
+        ],
+        "tools": [
+            "Laravel",
+            "Bootstrap",
+            "Git & GitHub",
+            "Docker",
+            "TensorFlow",
+            "Keras",
+            "PostgreSQL"
+        ]
+    },
+
+    "projects": [
+        {
+            "id": 1,
+            "category": "Fullstack Development",
+            "title": {
+                "en": "PERGATSI Website & Data Integration",
+                "id": "Website & Integrasi Data PERGATSI"
+            },
+            "short_description": {
+                "en": "Developed fullstack systems to manage and synchronize data between PERGATSI Sleman and PERGATSI DIY websites. Built backend APIs, frontend interfaces, and CMS functionalities for easy member and athlete management.",
+                "id": "Mengembangkan sistem fullstack untuk mengelola dan menyinkronkan data antara website PERGATSI Sleman dan PERGATSI DIY. Membangun backend API, antarmuka frontend, dan CMS untuk memudahkan manajemen anggota dan atlet."
+            },
+            "problem": {
+                "en": "PERGATSI needed an integrated system to synchronize athlete, referee, and player data across regional websites while providing an intuitive interface for managing members and events.",
+                "id": "PERGATSI membutuhkan sistem terintegrasi untuk menyinkronkan data atlet, wasit, dan pemain di berbagai website regional sekaligus menyediakan antarmuka intuitif untuk manajemen anggota dan acara."
+            },
+            "solution": {
+                "en": "Designed and implemented a fullstack solution using Laravel, Bootstrap, and Vanilla JavaScript. Developed REST APIs to transfer data between PERGATSI Sleman and PERGATSI DIY. Built frontend dashboards and CMS for CRUD operations, filtering, searching, and printing of member and athlete data, ensuring smooth synchronization and usability.",
+                "id": "Merancang dan mengimplementasikan solusi fullstack menggunakan Laravel, Bootstrap, dan Vanilla JavaScript. Mengembangkan REST API untuk mentransfer data antara PERGATSI Sleman dan PERGATSI DIY. Membangun dashboard frontend dan CMS untuk operasi CRUD, filtering, pencarian, dan pencetakan data anggota dan atlet, memastikan sinkronisasi lancar dan kemudahan penggunaan."
+            },
+            "tools": [
+                "PHP",
+                "Laravel",
+                "Bootstrap",
+                "Vanilla JavaScript",
+                "PostgreSQL",
+                "REST API",
+                "HTML5",
+                "CSS3"
+            ],
+            "images": [
+                "assets/img/pergatsi/pergatsi_1.jpg",
+                "assets/img/pergatsi/pergatsi_2.jpg",
+                "assets/img/pergatsi/pergatsi_3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Machine Learning",
+            "title": {
+                "en": "Beef Freshness Classification Using CNN",
+                "id": "Klasifikasi Kesegaran Daging Sapi dengan CNN"
+            },
+            "short_description": {
+                "en": "Developed an image classification system to distinguish fresh beef from spoiled beef using Convolutional Neural Networks and EfficientNetV2S architecture, achieving 98% accuracy.",
+                "id": "Mengembangkan sistem klasifikasi citra untuk membedakan daging sapi segar dan busuk menggunakan Convolutional Neural Networks dengan arsitektur EfficientNetV2S, mencapai akurasi 98%."
+            },
+            "problem": {
+                "en": "Identifying spoiled beef manually is error-prone and time-consuming, requiring an automated solution to improve accuracy and efficiency.",
+                "id": "Mengidentifikasi daging sapi busuk secara manual rentan kesalahan dan memakan waktu, sehingga diperlukan solusi otomatis untuk meningkatkan akurasi dan efisiensi."
+            },
+            "solution": {
+                "en": "Implemented a Python-based application using Keras and TensorFlow with EfficientNetV2S CNN architecture. Users can upload images of beef, and the system predicts whether it is fresh or spoiled. The application is responsive and designed with Bootstrap CSS for better usability. Achieved 98% prediction accuracy after rigorous training and testing.",
+                "id": "Mengimplementasikan aplikasi berbasis Python menggunakan Keras dan TensorFlow dengan arsitektur CNN EfficientNetV2S. Pengguna dapat mengunggah gambar daging sapi, dan sistem memprediksi apakah daging tersebut segar atau busuk. Aplikasi responsif dan dirancang menggunakan Bootstrap CSS untuk kemudahan penggunaan. Mencapai akurasi prediksi 98% setelah proses pelatihan dan pengujian yang ketat."
+            },
+            "tools": [
+                "Python",
+                "Keras",
+                "TensorFlow",
+                "Bootstrap CSS",
+                "Convolutional Neural Networks (CNN)",
+                "EfficientNetV2S"
+            ],
+            "images": [
+                "/assets/img/beef classification/1.jpg",
+                "/assets/img/beef classification/2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Machine Learning",
+            "title": {
+                "en": "Diabetic Retinopathy Eye Disease Classification",
+                "id": "Klasifikasi Penyakit Mata Diabetic Retinopathy"
+            },
+            "short_description": {
+                "en": "Developed a system to classify images of diabetic retinopathy using Convolutional Neural Networks with Xception architecture, enabling accurate detection of disease severity levels.",
+                "id": "Mengembangkan sistem untuk mengklasifikasikan citra diabetic retinopathy menggunakan Convolutional Neural Networks dengan arsitektur Xception, memungkinkan deteksi tingkat keparahan penyakit secara akurat."
+            },
+            "problem": {
+                "en": "Manual diagnosis of diabetic retinopathy is time-consuming and requires specialized expertise, necessitating an automated system for accurate image classification.",
+                "id": "Diagnosis manual diabetic retinopathy memakan waktu dan membutuhkan keahlian khusus, sehingga diperlukan sistem otomatis untuk klasifikasi citra yang akurat."
+            },
+            "solution": {
+                "en": "Built a Python application using Keras and TensorFlow with Xception CNN architecture. Users can upload eye images, and the system classifies them into classes such as No DR, Mild DR, and Moderate DR. The application is responsive with Bootstrap CSS for better usability and visualization of results.",
+                "id": "Membangun aplikasi berbasis Python menggunakan Keras dan TensorFlow dengan arsitektur CNN Xception. Pengguna dapat mengunggah gambar mata, dan sistem mengklasifikasikannya ke dalam kelas seperti No DR, Mild DR, dan Moderate DR. Aplikasi responsif menggunakan Bootstrap CSS untuk kemudahan penggunaan dan visualisasi hasil."
+            },
+            "tools": [
+                "Python",
+                "Keras",
+                "TensorFlow",
+                "Bootstrap CSS",
+                "Convolutional Neural Networks (CNN)",
+                "Xception"
+            ],
+            "images": [
+                "/assets/img/eye classification/1.png",
+                "/assets/img/eye classification/2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Web Development",
+            "title": {
+                "en": "Smooth Caffe Company Profile Website",
+                "id": "Website Company Profile Smooth Caffe"
+            },
+            "short_description": {
+                "en": "Developed a company profile website for Smooth Caffe to communicate business information in a simple, clear, and user-friendly way, highlighting the café's concept and menu.",
+                "id": "Mengembangkan website company profile untuk Smooth Caffe agar menyampaikan informasi bisnis secara sederhana, jelas, dan ramah pengguna, menonjolkan konsep kafe dan menu."
+            },
+            "problem": {
+                "en": "The café needed a simple yet effective website that aligns with its brand concept while clearly presenting key information to visitors.",
+                "id": "Kafe membutuhkan website yang sederhana namun efektif, sesuai dengan konsep brand-nya, sekaligus menampilkan informasi penting kepada pengunjung dengan jelas."
+            },
+            "solution": {
+                "en": "Built a responsive website using PHP, HTML, Bootstrap, CSS, and JavaScript. The design is clean, minimalistic, and user-friendly, providing clear information about the café, including menu items, concept, and business overview, engaging visitors and encouraging them to visit.",
+                "id": "Membangun website responsif menggunakan PHP, HTML, Bootstrap, CSS, dan JavaScript. Desainnya bersih, minimalis, dan ramah pengguna, menyajikan informasi jelas tentang kafe, termasuk menu, konsep, dan overview bisnis, sehingga pengunjung tertarik untuk berkunjung."
+            },
+            "tools": [
+                "PHP",
+                "HTML",
+                "Bootstrap",
+                "CSS",
+                "JavaScript"
+            ],
+            "images": [
+                "/assets/img/cafe/1.png",
+                "/assets/img/cafe/2.png"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Web Development",
+            "title": {
+                "en": "Personal Portfolio Website",
+                "id": "Website Portofolio Pribadi"
+            },
+            "short_description": {
+                "en": "Developed a personal portfolio website showcasing professional experience, skills, education, and allowing visitors to contact the owner, with a clean and engaging design.",
+                "id": "Mengembangkan website portofolio pribadi yang menampilkan pengalaman profesional, keterampilan, pendidikan, serta memungkinkan pengunjung menghubungi pemilik, dengan desain bersih dan menarik."
+            },
+            "problem": {
+                "en": "Creating a platform that contains all essential information without overwhelming visitors, while still being engaging and visually appealing.",
+                "id": "Membuat platform yang menampilkan semua informasi penting tanpa membuat pengunjung kewalahan, sekaligus tetap menarik dan enak dipandang."
+            },
+            "solution": {
+                "en": "Built a responsive portfolio website using PHP, HTML, Bootstrap, CSS, and JavaScript. The design balances comprehensive information with visual clarity, including sections for education, GPA, academic degrees, work experience, organizational activities, skills, and a contact form for easy communication.",
+                "id": "Membangun website portofolio responsif menggunakan PHP, HTML, Bootstrap, CSS, dan JavaScript. Desainnya menyeimbangkan informasi lengkap dengan tampilan visual yang jelas, mencakup bagian pendidikan, IPK, gelar akademik, pengalaman kerja, kegiatan organisasi, keterampilan, serta form kontak untuk komunikasi mudah."
+            },
+            "tools": [
+                "PHP",
+                "HTML",
+                "Bootstrap",
+                "CSS",
+                "JavaScript"
+            ],
+            "images": [
+                "assets/img/cv/1.png",
+                "assets/img/cv/2.png"
+            ]
+        },
+         {
+            "id": 6,
+            "category": "Web Application",
+            "title": {
+                "en": "CRM & Project Monitoring System",
+                "id": "Sistem CRM & Monitoring Proyek"
+            },
+            "short_description": {
+                "en": "A centralized CRM system to manage clients, leads, cross-department workflows, and project progress in one platform. Includes integrated document management and real-time monitoring to ensure smooth coordination across teams.",
+                "id": "Sistem CRM terpusat untuk mengelola klien, leads, alur kerja antar departemen, dan progres proyek dalam satu platform. Dilengkapi manajemen dokumen terintegrasi dan monitoring real-time untuk memudahkan koordinasi semua tim"
+            },
+            "problem": {
+                "en": "Geo Santara needed a unified and transparent system to manage sales activities and project workflows. The lack of integration caused frequent communication errors and made important documents difficult to track or maintain. Management required a platform where all teams could monitor progress, access documents, and stay aligned throughout the entire project cycle.",
+                "id": "Geo Santara membutuhkan sistem terpadu untuk mengelola seluruh alur sales serta jalannya proyek. Kurangnya integrasi menyebabkan sering terjadi kesalahan komunikasi dan dokumen penting sulit dilacak atau dikelola. Manajemen membutuhkan platform di mana semua tim dapat memantau progres, mengakses dokumen, dan tetap selaras selama seluruh siklus proyek."
+            },
+            "solution": {
+                "en": "Developed an integrated full-stack CRM platform using Laravel, MySQL, Bootstrap, and REST APIs. The system centralizes sales processes, cross-department communication, project tracking, and document management in one platform. It includes a complete ERD, automated workflows, role-based dashboards, and real-time monitoring features to ensure smooth coordination and reduce communication errors.",
+                "id": "Membangun platform CRM terintegrasi menggunakan Laravel, MySQL, Bootstrap, dan REST API. Sistem ini memusatkan proses sales, komunikasi antar departemen, pelacakan proyek, dan manajemen dokumen dalam satu platform. Di dalamnya terdapat ERD lengkap, workflow otomatis, dashboard berbasis role, serta fitur monitoring real-time untuk memastikan koordinasi berjalan lancar dan mengurangi kesalahan komunikasi."
+            },
+            "tools": ["Laravel", "MySQL", "Bootstrap", "JavaScript", "REST API"],
+            "images": [
+                "assets/img/tracking_project/pic_1.png",
+                "assets/img/tracking_project/pic_2.png",
+                "assets/img/tracking_project/pic_3.png",
+                "assets/img/tracking_project/pic_4.png"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "Web Application",
+            "title": {
+                "en": "Client Project Tracking & Review System",
+                "id": "Sistem Pelacakan Proyek & Review Klien"
+            },
+            "short_description": {
+                "en": "A project tracking platform where clients can view project details, progress updates, payment history, documentation, and submit ratings. Ensures full transparency and real-time monitoring from deal to completion.",
+                "id": "Platform pelacakan proyek yang memungkinkan klien melihat detail proyek, update progres, riwayat pembayaran, dokumentasi, serta memberikan rating. Menghadirkan transparansi penuh dan monitoring real-time dari awal hingga proyek selesai."
+            },
+            "problem": {
+                "en": "Clients and internal teams lacked a unified view of project progress, leading to communication gaps, unclear documentation, and difficulty tracking updates or payments. Management needed a transparent system where clients could monitor work, review progress, and provide feedback directly.",
+                "id": "Klien dan tim internal tidak memiliki tampilan terpadu untuk memantau progres proyek, sehingga sering terjadi kesenjangan komunikasi, dokumentasi tidak jelas, serta sulit melacak update maupun pembayaran. Manajemen membutuhkan sistem transparan di mana klien dapat memantau pekerjaan, melihat progres, dan memberikan feedback secara langsung."
+            },
+            "solution": {
+                "en": "Developed a full project tracking system using Laravel, MySQL, Bootstrap, and REST APIs. The platform displays key project details, progress logs, documentation links, payment history, and a client rating feature. Designed with role-based views and real-time updates to ensure transparency between clients, vendors, and internal teams.",
+                "id": "Membangun sistem pelacakan proyek menggunakan Laravel, MySQL, Bootstrap, dan REST API. Platform menampilkan detail proyek, riwayat progres, tautan dokumentasi, riwayat pembayaran, serta fitur rating dari klien. Dirancang dengan tampilan berbasis role dan update real-time untuk memastikan transparansi antara klien, vendor, dan tim internal."
+            },
+            "tools": ["Laravel", "MySQL", "Bootstrap", "JavaScript", "REST API"],
+            "images": [
+                "assets/img/client_review/1.png",
+                "assets/img/client_review/2.png",
+                "assets/img/client_review/3.png"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "Website Rebuild",
+            "title": {
+                "en": "Geo Santara Official Website Rebuild",
+                "id": "Pembangunan Ulang Website Resmi Geo Santara"
+            },
+            "short_description": {
+                "en": "A full rebuild of the Geo Santara website to regain full control, modernize the interface, improve user experience, and remove limitations caused by third-party ownership.",
+                "id": "Pembangunan ulang total website Geo Santara untuk mendapatkan kontrol penuh, memodernisasi tampilan, meningkatkan pengalaman pengguna, dan menghilangkan batasan akibat kepemilikan pihak ketiga."
+            },
+            "problem": {
+                "en": "The previous website was fully managed by a third party, making even simple updates difficult, slow, and inflexible. The layout was cluttered, text-heavy, and did not reflect Geo Santara’s branding or usability standards. Although the company already had a CRM, customization was restricted because all changes required external vendor involvement, limiting our ability to improve user-facing features.",
+                "id": "Website sebelumnya sepenuhnya dikelola oleh pihak ketiga sehingga pembaruan sederhana sekalipun menjadi sulit, lambat, dan tidak fleksibel. Tampilan berantakan, terlalu banyak teks, dan tidak sesuai dengan branding maupun standar usability Geo Santara. Meskipun perusahaan sudah memiliki CRM, penyesuaiannya sangat terbatas karena setiap perubahan harus melibatkan vendor eksternal, sehingga membatasi kemampuan kami dalam meningkatkan fitur yang digunakan oleh klien."
+            },
+            "solution": {
+                "en": "Rebuilt the entire website from the ground up with a clean structure, improved UI/UX, and full internal ownership. As the SPV, I led the planning, direction, and quality control throughout the project. The development work was executed by my team member under my supervision. The new website is fully controlled by our internal team and is now aligned with branding, clearer content flow, and better user experience without third-party restrictions.",
+                "id": "Membangun ulang seluruh website dari awal dengan struktur yang lebih rapi, UI/UX yang lebih baik, dan kepemilikan penuh secara internal. Sebagai SPV, saya memimpin proses perencanaan, arahan, dan pengendalian kualitas selama proyek berlangsung. Pengerjaan teknis dilakukan oleh anggota tim saya di bawah supervisi saya. Website baru kini sepenuhnya berada di bawah kontrol internal dan selaras dengan branding, alur konten yang lebih jelas, serta pengalaman pengguna yang lebih baik tanpa batasan pihak ketiga."
+            },
+            "tools": [
+                "Laravel",
+                "JavaScript",
+                "Bootstrap",
+                "MySQL",
+                "HTML/CSS"
+            ],
+            "images": [
+                "assets/img/geosantaraindo/1.png",
+                "assets/img/geosantaraindo/2.png",
+                "assets/img/geosantaraindo/3.png",
+                "assets/img/geosantaraindo/4.png",
+                "assets/img/geosantaraindo/5.png",
+                "assets/img/geosantaraindo/6.png",
+                "assets/img/geosantaraindo/7.png"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "SEO & Indexing",
+            "title": {
+                "en": "WordPress News-Based SEO Support Platform",
+                "id": "Platform Pendukung SEO Berbasis WordPress"
+            },
+            "short_description": {
+                "en": "A WordPress-based news and project showcase website built to boost Google indexing, publish project highlights, CSR activities, and support the SEO performance of the new official Geo Santara website.",
+                "id": "Website berbasis WordPress untuk menampilkan berita dan highlight proyek guna meningkatkan indexing Google, mempublikasikan kegiatan CSR, dan mendukung performa SEO dari website resmi Geo Santara yang baru."
+            },
+            "problem": {
+                "en": "Although the main website was rebuilt for better control and branding, relying solely on it for SEO growth would be slow. The previous site had better indexing due to age and content volume, but modifying it was impossible because it was controlled by a third party. The company needed an independent, fast, and flexible platform to publish news, project updates, and SEO-optimized content without vendor restrictions.",
+                "id": "Meskipun website utama telah dibangun ulang untuk kontrol dan branding yang lebih baik, mengandalkan satu website saja akan membuat pertumbuhan SEO lambat. Website lama memiliki indexing yang lebih baik karena umur dan banyaknya konten, namun tidak bisa dimodifikasi karena dikelola pihak ketiga. Perusahaan membutuhkan platform mandiri yang cepat dan fleksibel untuk mempublikasikan berita, update proyek, dan konten SEO tanpa batasan vendor."
+            },
+            "solution": {
+                "en": "Created a supporting WordPress platform with a news-style theme to publish project stories, CSR activities, and highlighted works. Optimized using SEO plugins to accelerate indexing on Google and link authority to the new official website. As the SPV, I led the planning, SEO strategy, and content direction while my team member handled implementation under my supervision. This platform serves as an SEO engine to strengthen visibility and unify search results under Geo Santara.",
+                "id": "Membangun platform pendukung berbasis WordPress dengan tema mirip portal berita untuk mempublikasikan cerita proyek, kegiatan CSR, dan highlight pekerjaan. Dioptimasi menggunakan plugin SEO untuk mempercepat indexing Google dan memberikan otoritas ke website resmi yang baru. Sebagai SPV, saya memimpin perencanaan, strategi SEO, dan arah konten sementara implementasi teknis dilakukan oleh anggota tim di bawah supervisi saya. Platform ini berfungsi sebagai mesin SEO untuk memperkuat visibilitas dan menyatukan hasil pencarian Geo Santara."
+            },
+            "tools": [
+                "WordPress",
+                "Yoast SEO / RankMath",
+                "Google Search Console",
+                "Google Analytics",
+                "PHP",
+                "MySQL"
+            ],
+            "images": [
+                "assets/img/geosantaraindo-wp/1.png",
+                "assets/img/geosantaraindo-wp/2.png",
+                "assets/img/geosantaraindo-wp/3.png",
+                "assets/img/geosantaraindo-wp/4.png",
+                "assets/img/geosantaraindo-wp/5.png"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "Automation & AI Development",
+            "title": {
+                "en": "Geo Santara AI Chatbot & n8n Automation System",
+                "id": "Sistem Chatbot AI & Automasi n8n untuk Geo Santara"
+            },
+            "short_description": {
+                "en": "Development of an AI-powered chatbot and automation workflow using n8n to reduce operational costs, handle incoming leads automatically, and build an internal AI system owned by Geo Santara.",
+                "id": "Pengembangan chatbot AI dan alur automasi menggunakan n8n untuk menekan biaya operasional, menangani lead yang masuk secara otomatis, dan membangun AI internal milik Geo Santara."
+            },
+            "problem": {
+                "en": "Geo Santara needed an efficient and cost-effective way to manage incoming chats and leads without relying on expensive third-party chatbot services. Existing solutions were costly, limited, and lacked customization. The company required a fully controllable, internally owned AI pipeline capable of responding to leads in real-time.",
+                "id": "Geo Santara membutuhkan cara yang efisien dan hemat biaya untuk menangani chat dan lead yang masuk tanpa bergantung kepada layanan chatbot pihak ketiga yang mahal. Solusi yang ada sangat terbatas, kurang fleksibel, dan tidak dapat dikustomisasi. Perusahaan memerlukan AI yang sepenuhnya bisa dikendalikan secara internal untuk merespons lead secara real-time."
+            },
+            "solution": {
+                "en": "Developed a complete automation ecosystem using n8n, integrating LLM-based responses, lead handling, and structured workflows. This includes experimentation on n8n cloud and local environments, implementing PostgreSQL as the database, and designing multi-step automation flows. As the developer, I built the logic, workflows, AI prompt structures, database connections, and full technical implementation through extensive trial-and-error.",
+                "id": "Mengembangkan ekosistem automasi lengkap menggunakan n8n, mengintegrasikan respons berbasis LLM, penanganan lead, dan alur kerja terstruktur. Proyek mencakup percobaan pada n8n cloud dan lokal, implementasi PostgreSQL sebagai database, serta perancangan alur automasi bertahap. Sebagai developer, saya membangun seluruh logika, workflow, struktur prompt AI, koneksi database, hingga implementasi teknis melalui banyak proses trial-and-error."
+            },
+            "tools": [
+                "n8n",
+                "PostgreSQL",
+                "OpenAI / LLM",
+                "Webhook Integration",
+                "JavaScript Functions",
+                "API Automation"
+            ],
+            "images": [
+                "/images/projects/n8n-automation-flow.webp",
+                "/images/projects/n8n-chatbot-structure.webp"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "Server & Infrastructure Setup",
+            "title": {
+                "en": "End-to-End Infrastructure Setup for Geo Santara Web Platform & Automation Systems",
+                "id": "Setup Infrastruktur End-to-End untuk Platform Web & Sistem Automasi Geo Santara"
+            },
+            "short_description": {
+                "en": "Configured and deployed new server infrastructure for Geo Santara’s website and automation system, including provisioning VPS, managing domains, setting up DNS routing, and ensuring seamless integration across old and new environments.",
+                "id": "Mengonfigurasi dan men-deploy infrastruktur server baru untuk website dan sistem automasi Geo Santara, termasuk provisioning VPS, manajemen domain, pengaturan DNS routing, serta memastikan integrasi yang lancar antara lingkungan lama dan baru."
+            },
+            "problem": {
+                "en": "Geo Santara required a stable, scalable, and fully controlled infrastructure to support the new website and internal automation workflows. The previous hosting environment relied on third-party ownership, limiting flexibility, control, and deployment speed. Additionally, the main domain (geosantaraindo.com) would only be activated in November, while development and system building had already started months earlier, making domain routing and parallel infrastructure preparation essential.",
+                "id": "Geo Santara membutuhkan infrastruktur yang stabil, scalable, dan sepenuhnya berada di bawah kontrol internal untuk mendukung website baru serta workflow automasi internal. Lingkungan hosting sebelumnya bergantung pada pihak ketiga sehingga fleksibilitas, kontrol, dan kecepatan deployment sangat terbatas. Selain itu, domain utama (geosantaraindo.com) baru aktif pada bulan November sementara proses pembangunan sistem sudah dimulai jauh lebih awal, sehingga diperlukan pengaturan routing domain dan persiapan infrastruktur paralel."
+            },
+            "solution": {
+                "en": "Provisioned a new VPS on DigitalOcean to host the new website, implemented security hardening, optimized the environment, and configured deployment pipelines. Set up a dedicated n8n automation server using IDCloudHost Hyperspace to ensure reliable performance for AI-driven lead responses. Connected all systems with the old domain (geosantara.com) through structured subdomains while preparing full migration to geosantaraindo.com. Managed DNS records, SSL certificates, routing logic, API endpoints, and subdomain integrations entirely in-house, ensuring seamless operation across all platforms.",
+                "id": "Menyediakan VPS baru di DigitalOcean untuk hosting website baru, melakukan security hardening, mengoptimalkan environment, dan mengonfigurasi pipeline deployment. Menyiapkan server automasi n8n terdedikasi menggunakan IDCloudHost Hyperspace untuk memastikan performa yang andal bagi sistem respons lead berbasis AI. Seluruh sistem dihubungkan dengan domain lama (geosantara.com) melalui subdomain yang terstruktur sambil menyiapkan migrasi penuh ke geosantaraindo.com. Manajemen DNS, sertifikat SSL, logika routing, endpoint API, dan integrasi subdomain sepenuhnya ditangani secara internal untuk memastikan operasional yang mulus di semua platform."
+            },
+            "tools": [
+                "DigitalOcean VPS",
+                "IDCloudHost Hyperspace",
+                "Nginx",
+                "Ubuntu Server",
+                "Cloudflare DNS",
+                "SSL/TLS",
+                "n8n Automation",
+                "Laravel Deployment Stack"
+            ],
+            "images": [
+                "/images/projects/infrastructure-digitalocean.webp",
+                "/images/projects/domain-routing-setup.webp"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "Point of Sale",
+            "title": {
+                "en": "Smart POS & QR Table Ordering System",
+                "id": "Sistem POS Pintar & Pemesanan Meja via QR"
+            },
+            "short_description": {
+                "en": "A POS and inventory system where customers order by scanning table-specific QR codes, staff manage incoming orders and payments, and inventory is automatically updated based on ingredient usage.",
+                "id": "Sistem kasir dan inventori di mana pelanggan memesan dengan memindai QR khusus meja, staf mengelola pesanan dan pembayaran, serta inventori berkurang otomatis berdasarkan penggunaan bahan."
+            },
+            "problem": {
+                "en": "Restaurants struggled with manual ordering, inaccurate inventory tracking, overselling out-of-stock menu items, slow staff order processing, and the lack of clear financial insight on food categories.",
+                "id": "Restoran kesulitan dengan pemesanan manual, pencatatan stok yang tidak akurat, penjualan menu yang stoknya habis, proses pesanan staf yang lambat, serta tidak adanya insight keuangan yang jelas per kategori makanan."
+            },
+            "solution": {
+                "en": "Developed a full POS platform with QR-based table ordering, real-time order monitoring, staff dashboards, automatic ingredient-level stock reduction, low-stock alerts, category-based revenue reports, and receipt printing support. Built using Laravel, MySQL, WebSockets, and ESC/POS printing integration.",
+                "id": "Membangun platform POS lengkap dengan pemesanan meja berbasis QR, monitoring pesanan real-time, dashboard staf, pengurangan stok otomatis berdasarkan bahan, notifikasi stok menipis, laporan pemasukan berbasis kategori, serta dukungan cetak struk. Dikembangkan menggunakan Laravel, MySQL, WebSocket, dan integrasi printer ESC/POS."
+            },
+            "tools": [
+                "Laravel",
+                "MySQL",
+                "Bootstrap",
+                "JavaScript",
+                "WebSocket",
+                "Redis",
+                "ESC/POS Printer"
+            ],
+            "images": [
+                "/images/projects/pos-qr-main.webp",
+                "/images/projects/pos-qr-dashboard.webp"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "Web Development",
+            "title": {
+                "en": "Modern Café & Creative Space",
+                "id": "Kafe Modern & Ruang Kreatif"
+            },
+            "short_description": {
+                "en": "A modern café offering specialty coffee, creative desserts, and a cozy space for working or socializing. Designed to provide a visually appealing, minimal, and relaxing experience.",
+                "id": "Kafe modern yang menyajikan kopi spesial, dessert kreatif, dan ruang nyaman untuk bekerja atau bersosialisasi. Dirancang agar tampil minimalis, menarik, dan menenangkan."
+            },
+            "problem": {
+                "en": "Traditional café websites lacked modern design, user-friendly experience, and effective showcase of the café’s ambiance, menu, and events.",
+                "id": "Website kafe tradisional kurang memiliki desain modern, pengalaman pengguna yang nyaman, serta tidak mampu menampilkan suasana, menu, dan acara kafe secara menarik."
+            },
+            "solution": {
+                "en": "Developed a responsive, modern, and minimal website highlighting café ambiance, menu items with high-quality images, events, and blog updates. Integrated booking and contact features, with fast performance and mobile-first design. Built using WordPress, Elementor, HTML5, CSS3, and JavaScript.",
+                "id": "Membangun website responsif, modern, dan minimalis yang menonjolkan suasana kafe, menu dengan gambar berkualitas tinggi, acara, dan update blog. Dilengkapi fitur pemesanan dan kontak, dengan performa cepat dan desain mobile-first. Dikembangkan menggunakan WordPress, Elementor, HTML5, CSS3, dan JavaScript."
+            },
+            "tools": [
+                "WordPress",
+                "Elementor",
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Figma",
+                "Adobe Photoshop"
+            ],
+            "images": [
+                "/images/projects/cafe-main.webp",
+                "/images/projects/cafe-menu.webp",
+                "/images/projects/cafe-interior.webp"
+            ]
+        }
+
+
+    ]
+}
