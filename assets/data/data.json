@@ -452,6 +452,43 @@
         },
         {
             "id": 12,
+            "category": "Website Development (Prototype)",
+            "title": {
+                "en": "Banyu Mili Nusantara — Company Profile UI Prototype",
+                "id": "Banyu Mili Nusantara — Prototype Tampilan Company Profile"
+            },
+            "short_description": {
+                "en": "A visual prototype of a clean, modern, and responsive company profile website built as a benchmark and design reference. Created using HTML, CSS, and JavaScript to explore layout direction and brand presentation.",
+                "id": "Prototype tampilan website company profile yang modern, bersih, dan responsif. Dibuat sebagai benchmark dan referensi desain menggunakan HTML, CSS, dan JavaScript untuk mengeksplorasi arah layout dan penyajian brand."
+            },
+            "purpose": {
+                "en": "This website was developed as a front-end concept to serve as a design comparison against Geo Santara’s website. It focuses solely on UI/visual direction as an early-stage reference before any full development.",
+                "id": "Website ini dibuat sebagai konsep front-end untuk menjadi pembanding desain terhadap website Geo Santara. Fokusnya murni pada UI/visual sebagai referensi awal sebelum pengembangan penuh."
+            },
+            "problem": {
+                "en": "The team needed a quick visual reference to determine design direction and evaluate how a cleaner, more modern layout could represent the brand. The existing materials lacked a cohesive structure, and a prototype was required as internal comparison—not a full production website.",
+                "id": "Tim membutuhkan referensi visual cepat untuk menentukan arah desain dan mengevaluasi bagaimana layout yang lebih modern dan bersih dapat merepresentasikan brand. Materi yang ada tidak terstruktur, sehingga diperlukan prototype untuk perbandingan internal—bukan website produksi penuh."
+            },
+            "solution": {
+                "en": "Built a lightweight UI prototype using only HTML, CSS, and JavaScript to demonstrate clean content structure, strong visual hierarchy, and modern branding. The design showcases hero banners, service sections, and process steps, providing a clear preview for internal decision-making before committing to a full-featured build.",
+                "id": "Membangun prototype UI ringan menggunakan HTML, CSS, dan JavaScript untuk menunjukkan struktur konten yang bersih, hierarki visual yang kuat, dan branding modern. Desain ini menampilkan hero banner, section layanan, dan langkah proses, sehingga tim dapat melihat gambaran jelas sebelum masuk ke pengembangan penuh."
+            },
+            "tools": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap (for layout base)",
+                "Responsive Design",
+                "UI Prototyping"
+            ],
+            "images": [
+                "assets/img/banyumili/1.png",  
+                "assets/img/banyumili/2.png",
+                "assets/img/banyumili/3.png"
+            ]
+        },
+        {
+            "id": 13,
             "category": "Point of Sale",
             "title": {
                 "en": "Smart POS & QR Table Ordering System",
@@ -484,7 +521,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 14,
             "category": "Web Development",
             "title": {
                 "en": "Modern Café & Creative Space",
