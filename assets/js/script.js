@@ -130,14 +130,42 @@ function loadHeroSection(texts) {
 // ABOUT SECTION
 // ===================================
 function loadAboutSection(texts) {
-    document.getElementById('aboutSubtitle').textContent = 
-        currentLang === 'id' ? 'Kenali Saya Lebih Dekat' : 'Get to Know Me';
-    document.getElementById('aboutTitle').textContent = texts.about.title;
-    document.getElementById('aboutDesc').textContent = texts.about.description;
+    // Subtitle & Title (jika ada)
+    const subtitleEl = document.getElementById('aboutSubtitle');
+    if (subtitleEl) {
+        subtitleEl.textContent = currentLang === 'id' 
+            ? 'Kenali Saya Lebih Dekat' 
+            : 'Get to Know Me';
+    }
+
+    const titleEl = document.getElementById('aboutTitle');
+    if (titleEl) {
+        titleEl.textContent = texts.about.title;
+    }
+
+    // Description
+    const descEl = document.getElementById('aboutDesc');
+    if (descEl) {
+        descEl.textContent = texts.about.description;
+    }
+
+    // CV Button
+    const cvBtn = document.getElementById('heroCVBtn');
+    if (cvBtn) {
+        cvBtn.textContent = currentLang === 'id' ? 'CV Saya' : 'My CV';
+    }
+
+   const cvBtnLink = document.getElementById('cvLink');
+    if (cvBtnLink) {
+        cvBtnLink.href = texts.about.cv;
+        cvBtnLink.target = "_blank";
+    }
+
+
+    // Load skills
     document.getElementById('langLabel').textContent = texts.skills.languages;
     document.getElementById('toolsLabel').textContent = texts.skills.tools;
-    
-    // Load skills
+
     loadSkills(siteData.skills.languages, 'programmingLanguages');
     loadSkills(siteData.skills.tools, 'devTools');
 }
@@ -145,7 +173,7 @@ function loadAboutSection(texts) {
 function loadSkills(skillsArray, containerId) {
     const container = document.getElementById(containerId);
     if (!container) return;
-    
+
     container.innerHTML = '';
     skillsArray.forEach(skill => {
         const span = document.createElement('span');
@@ -154,6 +182,7 @@ function loadSkills(skillsArray, containerId) {
         container.appendChild(span);
     });
 }
+
 
 // ===================================
 // PROJECTS SECTION
@@ -458,3 +487,26 @@ setTimeout(() => {
         observer.observe(el);
     });
 }, 100);
+
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("nameInput").value;
+    const email = document.getElementById("emailInput").value;
+    const message = document.getElementById("messageInput").value;
+
+    const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message })
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+        alert("Pesan berhasil dikirim!");
+        document.getElementById("contactForm").reset();
+    } else {
+        alert("Gagal mengirim pesan.");
+    }
+});

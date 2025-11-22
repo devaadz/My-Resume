@@ -10,7 +10,8 @@
             },
             "about": {
                 "title": "About Me",
-                "description": "I am a Fullstack Developer with over 5 years of experience building CRM systems, Machine Learning-powered apps, and internal tools. I specialize in scalable backend architecture, clean code, and seamless user experiences."
+                "description": "I am a Fullstack Developer with over 5 years of experience building CRM systems, Machine Learning-powered apps, and internal tools. I specialize in scalable backend architecture, clean code, and seamless user experiences.",
+                "cv" : "assets/file/Resume_deva_eng.pdf"
             },
             "skills": {
                 "languages": "Programming Languages",
@@ -48,7 +49,8 @@
             },
             "about": {
                 "title": "Tentang Saya",
-                "description": "Saya adalah Pengembang Fullstack dengan lebih dari 5 tahun pengalaman membangun CRM, aplikasi Machine Learning, dan aplikasi internal. Saya berfokus pada arsitektur backend yang skalabel, clean code, dan pengalaman pengguna yang optimal."
+                "description": "Saya adalah Pengembang Fullstack dengan lebih dari 5 tahun pengalaman membangun CRM, aplikasi Machine Learning, dan aplikasi internal. Saya berfokus pada arsitektur backend yang skalabel, clean code, dan pengalaman pengguna yang optimal.",
+                "cv" : "assets/file/Resume_deva_ind.pdf"
             },
             "skills": {
                 "languages": "Bahasa Pemrograman",
@@ -412,8 +414,8 @@
                 "API Automation"
             ],
             "images": [
-                "/images/projects/n8n-automation-flow.webp",
-                "/images/projects/n8n-chatbot-structure.webp"
+                "assets/img/n8n/n8n_workflow.jpeg",
+                "assets/img/n8n/login_goWA.jpeg"
             ]
         },
         {
@@ -516,8 +518,12 @@
                 "ESC/POS Printer"
             ],
             "images": [
-                "/images/projects/pos-qr-main.webp",
-                "/images/projects/pos-qr-dashboard.webp"
+                "assets/img/POS_bagaskara/1.png",
+                "assets/img/POS_bagaskara/2.png",
+                "assets/img/POS_bagaskara/3.png",
+                "assets/img/POS_bagaskara/4.png",
+                "assets/img/POS_bagaskara/5.png",
+                "assets/img/POS_bagaskara/6.png"
             ]
         },
         {
@@ -549,9 +555,10 @@
                 "Adobe Photoshop"
             ],
             "images": [
-                "/images/projects/cafe-main.webp",
-                "/images/projects/cafe-menu.webp",
-                "/images/projects/cafe-interior.webp"
+                "assets/img/bagaskara_compro/1.png",
+                "assets/img/bagaskara_compro/2.png",
+                "assets/img/bagaskara_compro/3.png",
+                "assets/img/bagaskara_compro/4.png",
             ]
         }
 
