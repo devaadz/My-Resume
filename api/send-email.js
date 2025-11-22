@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         await transporter.sendMail({
             from: `"${name}" <${email}>`,
             to: process.env.MY_GMAIL,
-            subject: "Pesan Baru dari Form Contact",
+            subject: "Pesan Baru dari Form Contact di protofolio devaadzany.vercel.app/",
             html: `
                 <h3>Nama: ${name}</h3>
                 <h4>Email: ${email}</h4>
