@@ -489,6 +489,7 @@ setTimeout(() => {
 }, 100);
 
 document.getElementById("contactForm").addEventListener("submit", async function(e) {
+    console.log("Submitting contact form...");
     e.preventDefault();
 
     const name = document.getElementById("nameInput").value;
