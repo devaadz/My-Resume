@@ -286,7 +286,10 @@
                 "assets/img/tracking_project/pic_1.png",
                 "assets/img/tracking_project/pic_2.png",
                 "assets/img/tracking_project/pic_3.png",
-                "assets/img/tracking_project/pic_4.png"
+                "assets/img/tracking_project/pic_4.png",
+                "assets/img/tracking_project/pic_5.png",
+                "assets/img/tracking_project/pic_6.png",
+                "assets/img/tracking_project/pic_7.png"
             ]
         },
         {
@@ -310,6 +313,7 @@
             },
             "tools": ["Laravel", "MySQL", "Bootstrap", "JavaScript", "REST API"],
             "images": [
+                "assets/img/client_review/0.png",
                 "assets/img/client_review/1.png",
                 "assets/img/client_review/2.png",
                 "assets/img/client_review/3.png"
@@ -454,6 +458,51 @@
         },
         {
             "id": 12,
+            "category": "Web Application",
+            "title": {
+                "en": "Role-Based SLA Task Management System",
+                "id": "Sistem Manajemen Tugas dengan SLA Berbasis Peran"
+            },
+            "short_description": {
+                "en": "Designed and developed a responsive SLA-based task management system that distributes tasks from management to SPV and employees across multiple divisions, complete with role-based access, visual status indicators, deadline tracking, and flexible filtering.",
+                "id": "Merancang dan mengembangkan sistem manajemen task berbasis SLA yang mendistribusikan tugas dari manajemen ke SPV dan karyawan lintas divisi, dilengkapi dengan kontrol akses berbasis role, indikator status visual, pelacakan deadline, serta fitur filter yang fleksibel."
+            },
+            "problem": {
+                "en": "The organization required a structured task distribution system to ensure accountability, transparency, and on-time execution across different divisions. Previously, task monitoring was fragmented, making it difficult for management and supervisors to track progress, identify overdue tasks, and evaluate performance against SLA standards. There was also no clear visual differentiation between updated, pending, or deadline-critical tasks.",
+                "id": "Perusahaan membutuhkan sistem distribusi tugas yang terstruktur untuk memastikan akuntabilitas, transparansi, dan penyelesaian tepat waktu di berbagai divisi. Sebelumnya, pemantauan tugas bersifat terpisah-pisah sehingga menyulitkan manajemen dan SPV dalam melacak progres, mengidentifikasi keterlambatan, serta mengevaluasi kinerja berdasarkan standar SLA. Selain itu, tidak ada pembeda visual yang jelas untuk task yang sudah di-update, tertunda, atau mendekati deadline."
+            },
+            "solution": {
+                "en": "Developed a centralized SLA task management system where tasks are assigned hierarchically from management to SPV and then to employees, with role-based permissions tailored to each division. Implemented visual color indicators to represent task conditions such as updated tasks, approaching deadlines, and overdue items. Added advanced filtering by task category, status, brief date, deadline, update history, and SPV activity to support operational and managerial needs. The entire interface was built with a fully responsive design to ensure optimal usability across desktop and mobile devices.",
+                "id": "Membangun sistem manajemen task terpusat berbasis SLA dengan alur penugasan hierarkis dari manajemen ke SPV hingga karyawan, serta kontrol akses berbasis role sesuai divisi. Mengimplementasikan indikator warna visual untuk merepresentasikan kondisi task seperti sudah di-update, mendekati deadline, dan melewati batas waktu. Menyediakan fitur filtering lanjutan berdasarkan golongan task, status, tanggal brief, deadline, riwayat update, dan aktivitas SPV untuk mendukung kebutuhan operasional dan manajerial. Seluruh antarmuka dirancang responsif agar optimal digunakan di desktop maupun perangkat mobile."
+            },
+            "features": [
+                "Hierarchical task distribution (Management → SPV → Employee)",
+                "Role-based access control per division",
+                "SLA-based deadline monitoring",
+                "Visual status indicators with color coding",
+                "Advanced task filtering and sorting",
+                "SPV update tracking",
+                "Responsive and mobile-friendly interface"
+            ],
+            "tools": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "CSS",
+                "Responsive Web Design",
+                "Role & Permission System"
+            ],
+            "images": [
+                "/assets/img/sla/1.png",
+                "/assets/img/sla/2.png",
+                "/assets/img/sla/3.png",
+                "/assets/img/sla/4.png"
+            ]
+        },
+
+        {
+            "id": 13,
             "category": "Website Development (Prototype)",
             "title": {
                 "en": "Banyu Mili Nusantara — Company Profile UI Prototype",
@@ -490,7 +539,7 @@
             ]
         },
         {
-            "id": 13,
+            "id": 14,
             "category": "Point of Sale",
             "title": {
                 "en": "Smart POS & QR Table Ordering System",
@@ -527,7 +576,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": 15,
             "category": "Web Development",
             "title": {
                 "en": "Modern Café & Creative Space",
